@@ -115,7 +115,7 @@ export const SkillsInfo = [
     {
       id: 0,
       img: manlhamtechLogo,
-      role: "Full-Stack Developer",
+      role: "Founder & CEO",
       company: "Manlham Tech Support",
       date: "April 2019 - Present",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
@@ -152,7 +152,7 @@ export const SkillsInfo = [
     {
       id: 2,
       img: skilllinkLogo,
-      role: "Frontend Intern",
+      role: "Software Development Intern",
       company: "SkillLink Nexus",
       date: "November 2025 - Present",
       desc: "Working as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
