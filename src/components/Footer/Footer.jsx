@@ -1,5 +1,11 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -38,12 +44,23 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/gkwal.kim/" },
+            {
+              icon: <FaFacebook />,
+              link: "https://www.facebook.com/gkwal.kim/",
+            },
             { icon: <FaTwitter />, link: "https://twitter.com/GatdongK" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gatdong-kim" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/manlhamtechsupport/" },
-            { icon: <FaYoutube />, link: "https://www.youtube.com/manlhamtechsupport" },
-            
+            {
+              icon: <FaLinkedin />,
+              link: "https://www.linkedin.com/in/gatdongk",
+            },
+            {
+              icon: <FaInstagram />,
+              link: "https://www.instagram.com/gatdongk/",
+            },
+            {
+              icon: <FaYoutube />,
+              link: "https://www.youtube.com/manlhamtechsupport",
+            },
           ].map((item, index) => (
             <a
               key={index}
@@ -59,7 +76,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Gatdong Kim. All rights reserved.
+          © {new Date().getFullYear()} Gatdong Kim. All rights reserved.
         </p>
       </div>
     </footer>

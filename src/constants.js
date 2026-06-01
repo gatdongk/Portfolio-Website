@@ -123,13 +123,13 @@ export const SkillsInfo = [
         "HTML",
         "CSS",
         "JavaScript",
-        "React JS",
+        "React.js",
         "TypeScript",
-        "Node JS",
+        "Node.js",
         "Tailwind CSS",
-        "MongoDb",
+        "MongoDB",
         "Redux",
-        " Next Js",
+        "Next.js",
       ],
     },
     {
@@ -154,17 +154,17 @@ export const SkillsInfo = [
       img: skilllinkLogo,
       role: "Software Development Intern",
       company: "SkillLink Nexus",
-      date: "November 2025 - Present",
-      desc: "Working as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      date: "December 2025 - February 2026",
+      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
         "HTML",
         "CSS",
-        "Javascript",
+        "JavaScript",
         "Bootstrap",
         "Figma",
         "Material UI",
       ],
-    },
+    }
   ];
   
   export const education = [
@@ -260,7 +260,7 @@ export const SkillsInfo = [
     // },
     {
       id: 5,
-      title: "Manlham Tech Support",
+      title: "Manlham Tech Support Website",
       description:
         "The official website for Manlham Tech Support, began with a vision to revolutionize computerized accounting systems. Today, they are a leading provider of IT services and networking solutions across Africa.",
       image: manlhamLogo,

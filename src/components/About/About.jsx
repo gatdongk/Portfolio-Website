@@ -41,11 +41,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+          I am a Full-Stack Developer, IT Operations Leader, and the Founder of Manlham Tech Support. 
+          With a strong foundation in Computer Science, I specialize in building scalable web 
+          pplications using the MERN/PERN stacks and Next.js, while seamlessly managing the underlying 
+          network infrastructure and server environments that keep them running.
           </p>
           {/* Contact Me Button */}
           <a
